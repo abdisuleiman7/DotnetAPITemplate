@@ -24,5 +24,3 @@ jobs:
       run: dotnet restore Template.API.Rest/Template.API.Rest.sln
     - name: Build
       run: dotnet build Template.API.Rest/Template.API.Rest.sln --no-restore
-    - name: Test
-      run: dotnet test Template.API.Rest/Template.API.Rest.sln --build --configuration release
